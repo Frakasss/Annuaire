@@ -13,6 +13,7 @@ namespace Annuaire
     {
 
         FunctionFiches fctn = new FunctionFiches();
+        string idToSelect;
 
         public Annuaire()
         {
@@ -42,31 +43,84 @@ namespace Annuaire
 
         }
 
-        private void InitializeDgv()
+        private void FillDatagridview(string txtRechNom, string txtRechPrenom, string txtRechAlias, string txtRechTelephone, string cbxRechActivite, string cbxRechRelation, string txtRechDetails)
         {
-            foreach (Fiche myFiche in fctn.fnSelection(txtRechNom.Text, txtRechPrenom.Text, txtRechAlias.Text, txtRechTelephone.Text, cbxRechActivite.Text, cbxRechRelation.Text, txtRechDetails.Text))
+            this.dgvAnnuaire.Rows.Clear();
+            foreach (Fiche myFiche in fctn.fnSelection(txtRechNom, txtRechPrenom, txtRechAlias, txtRechTelephone, cbxRechActivite, cbxRechRelation, txtRechDetails))
             {
                 this.dgvAnnuaire.Rows.Add(myFiche.Id, myFiche.Nom, myFiche.Prenom, myFiche.Alias, myFiche.Tel1, myFiche.Tel2, myFiche.Adresse, myFiche.Activite, myFiche.Relation);
             }
         }
 
+        private void FillDatagridview(string idToBeSelected, string txtRechNom, string txtRechPrenom, string txtRechAlias, string txtRechTelephone, string cbxRechActivite, string cbxRechRelation, string txtRechDetails)
+        {
+            int cpt = 0;
+            int indexToBeSelected = 0;
+            this.dgvAnnuaire.Rows.Clear();
+            foreach (Fiche myFiche in fctn.fnSelection(txtRechNom, txtRechPrenom, txtRechAlias, txtRechTelephone, cbxRechActivite, cbxRechRelation, txtRechDetails))
+            {
+                this.dgvAnnuaire.Rows.Add(myFiche.Id, myFiche.Nom, myFiche.Prenom, myFiche.Alias, myFiche.Tel1, myFiche.Tel2, myFiche.Adresse, myFiche.Activite, myFiche.Relation);
+                if (myFiche.Id == idToBeSelected) { indexToBeSelected = cpt; }
+                cpt = cpt + 1;
+            }
+            if (indexToBeSelected>1)
+            {
+                this.dgvAnnuaire.FirstDisplayedScrollingRowIndex = indexToBeSelected - 2;
+            }else{
+                this.dgvAnnuaire.FirstDisplayedScrollingRowIndex = 0;
+            }
+            this.dgvAnnuaire.Rows[indexToBeSelected].Selected = true;
+            this.dgvAnnuaire.CurrentCell = this.dgvAnnuaire[1, indexToBeSelected];
+        }
+        private void FillDatagridview(int idToBeSelected, string txtRechNom, string txtRechPrenom, string txtRechAlias, string txtRechTelephone, string cbxRechActivite, string cbxRechRelation, string txtRechDetails)
+        {
+            this.dgvAnnuaire.Rows.Clear();
+            foreach (Fiche myFiche in fctn.fnSelection(txtRechNom, txtRechPrenom, txtRechAlias, txtRechTelephone, cbxRechActivite, cbxRechRelation, txtRechDetails))
+            {
+                this.dgvAnnuaire.Rows.Add(myFiche.Id, myFiche.Nom, myFiche.Prenom, myFiche.Alias, myFiche.Tel1, myFiche.Tel2, myFiche.Adresse, myFiche.Activite, myFiche.Relation);
+            }
+
+            if (idToBeSelected>1)
+            {
+                this.dgvAnnuaire.FirstDisplayedScrollingRowIndex = idToBeSelected - 2;
+            }else{
+                this.dgvAnnuaire.FirstDisplayedScrollingRowIndex = idToBeSelected;
+            }
+            this.dgvAnnuaire.Rows[idToBeSelected].Selected = true;
+            this.dgvAnnuaire.CurrentCell = this.dgvAnnuaire[idToBeSelected, 0];
+        }
+
+
+        private void setIdToSelect(string s) { idToSelect = s; }
+
+
+        private void InitializeDgv()
+        {
+            FillDatagridview(txtRechNom.Text, txtRechPrenom.Text, txtRechAlias.Text, txtRechTelephone.Text, cbxRechActivite.Text, cbxRechRelation.Text, txtRechDetails.Text);
+        }
+
+
+        //##### Gestion des Events #####
+        //##### Bouton Rechercher #####
+        private void btnRechercher_Click(object sender, EventArgs e)
+        {
+            FillDatagridview(txtRechNom.Text, txtRechPrenom.Text, txtRechAlias.Text, txtRechTelephone.Text, cbxRechActivite.Text, cbxRechRelation.Text, txtRechDetails.Text);
+        }
+
+
+
+        //##### Bouton Nouveau #####
         private void btnNew_Click(object sender, EventArgs e)
         {
             FormulaireFiche formulaireFiche = new FormulaireFiche();
             formulaireFiche.modeFiche = FormulaireFiche.ModeFiche.CREER;
+            formulaireFiche.returnCreatedValue += new FormulaireFiche.ChildEvent(this.setIdToSelect);
             formulaireFiche.ShowDialog();
-            this.btnRechercher.PerformClick();
+            FillDatagridview(idToSelect, txtRechNom.Text, txtRechPrenom.Text, txtRechAlias.Text, txtRechTelephone.Text, cbxRechActivite.Text, cbxRechRelation.Text, txtRechDetails.Text);
+            idToSelect = "";
         }
 
-        private void btnRechercher_Click(object sender, EventArgs e)
-        {
-            this.dgvAnnuaire.Rows.Clear();
-            foreach (Fiche myFiche in fctn.fnSelection(txtRechNom.Text, txtRechPrenom.Text, txtRechAlias.Text, txtRechTelephone.Text, cbxRechActivite.Text, cbxRechRelation.Text, txtRechDetails.Text))
-            {
-               this.dgvAnnuaire.Rows.Add(myFiche.Id, myFiche.Nom, myFiche.Prenom, myFiche.Alias, myFiche.Tel1, myFiche.Tel2, myFiche.Adresse, myFiche.Activite, myFiche.Relation);
-            }
-        }
-
+        //##### Bouton Modifier #####
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             if (this.dgvAnnuaire.CurrentRow == null)
@@ -78,7 +132,21 @@ namespace Annuaire
                 FormulaireFiche formulaireFiche = new FormulaireFiche(Convert.ToInt32(this.dgvAnnuaire.CurrentRow.Cells["colId"].Value.ToString()));
                 formulaireFiche.modeFiche = FormulaireFiche.ModeFiche.MODIFIER;
                 formulaireFiche.ShowDialog();
-                this.btnRechercher.PerformClick();
+                FillDatagridview(this.dgvAnnuaire.CurrentRow.Cells["colId"].Value.ToString(), txtRechNom.Text, txtRechPrenom.Text, txtRechAlias.Text, txtRechTelephone.Text, cbxRechActivite.Text, cbxRechRelation.Text, txtRechDetails.Text);
+            }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (this.dgvAnnuaire.CurrentRow == null)
+            {
+                MessageBox.Show("Veuillez sélectionner une ligne!");
+            }
+            else
+            {
+                int idToSelectInt = this.dgvAnnuaire.CurrentRow.Index;
+                fctn.fnSuppressionFiche(Convert.ToInt32(this.dgvAnnuaire.CurrentRow.Cells["colId"].Value.ToString()));
+                FillDatagridview(idToSelectInt, txtRechNom.Text, txtRechPrenom.Text, txtRechAlias.Text, txtRechTelephone.Text, cbxRechActivite.Text, cbxRechRelation.Text, txtRechDetails.Text);
             }
         }
 

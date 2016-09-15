@@ -15,20 +15,6 @@
     <details></details>
   </myFiche>
   <myFiche>
-    <id>1</id>
-    <nom>PICQ</nom>
-    <prenom>Michel</prenom>
-    <alias>Pipo</alias>
-    <tel1>06.33.85.52.97</tel1>
-    <tel2></tel2>
-    <adresse>1, Rue Villars 
-57050 METZ</adresse>
-    <activite>Informatique</activite>
-    <relation>Famille</relation>
-    <lienPhoto>lienPhoto</lienPhoto>
-    <details></details>
-  </myFiche>
-  <myFiche>
     <id>4</id>
     <nom>PAGES</nom>
     <prenom>Blandine</prenom>
@@ -80,19 +66,6 @@
     <adresse>DIEBLING</adresse>
     <activite>Musique</activite>
     <relation>Ami</relation>
-    <lienPhoto>lienPhoto</lienPhoto>
-    <details></details>
-  </myFiche>
-  <myFiche>
-    <id>7</id>
-    <nom>BRESSON</nom>
-    <prenom>Christophe</prenom>
-    <alias></alias>
-    <tel1>06.33.19.51.02</tel1>
-    <tel2></tel2>
-    <adresse>THIONVILLE</adresse>
-    <activite>Informatique</activite>
-    <relation>Collegue</relation>
     <lienPhoto>lienPhoto</lienPhoto>
     <details></details>
   </myFiche>
@@ -276,6 +249,46 @@
     <adresse></adresse>
     <activite>Décédé</activite>
     <relation></relation>
+    <lienPhoto>lienPhoto</lienPhoto>
+    <details></details>
+  </myFiche>
+  <myFiche>
+    <id>23</id>
+    <nom>TEST002</nom>
+    <prenom>Test002</prenom>
+    <alias></alias>
+    <tel1></tel1>
+    <tel2></tel2>
+    <adresse></adresse>
+    <activite></activite>
+    <relation></relation>
+    <lienPhoto>lienPhoto</lienPhoto>
+    <details></details>
+  </myFiche>
+  <myFiche>
+    <id>24</id>
+    <nom>PAGES</nom>
+    <prenom>Mélanie</prenom>
+    <alias></alias>
+    <tel1>123456</tel1>
+    <tel2></tel2>
+    <adresse>PARIS</adresse>
+    <activite>Autre</activite>
+    <relation>Famille</relation>
+    <lienPhoto>lienPhoto</lienPhoto>
+    <details></details>
+  </myFiche>
+  <myFiche>
+    <id>1</id>
+    <nom>PICQ</nom>
+    <prenom>Michel</prenom>
+    <alias>Néné</alias>
+    <tel1>06.33.85.52.97</tel1>
+    <tel2></tel2>
+    <adresse>1, Rue Villars 
+57050 METZ</adresse>
+    <activite>Informatique</activite>
+    <relation>Famille</relation>
     <lienPhoto>lienPhoto</lienPhoto>
     <details></details>
   </myFiche>

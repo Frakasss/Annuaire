@@ -103,7 +103,7 @@ namespace Annuaire
         /// <param name="Description"></param>
         /// <param name="LienVideo"></param>
         /// <param name="TempsDebutSequence"></param>
-        public void fnCreationFiche(String Nom, String Prenom, String Alias, String Tel1, String Tel2, String Adresse, String Activite, String Relation, String LienPhoto, String Details)
+        public string fnCreationFiche(String Nom, String Prenom, String Alias, String Tel1, String Tel2, String Adresse, String Activite, String Relation, String LienPhoto, String Details)
         {
 
             Int32 id = 0;
@@ -142,6 +142,7 @@ namespace Annuaire
                                         new XElement("details", Details)));
 
             xmlDoc.Save(gfctn.AppRootPath() + "MyDB/MyXmlDB.xml");
+            return id.ToString();
         }
 
         /// <summary>

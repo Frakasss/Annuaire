@@ -26,6 +26,8 @@ namespace Annuaire
             MODIFIER = 2,
             AFFICHER = 3
         }
+
+        public delegate void ChildEvent(string text);
         #endregion
 
         #region Constructeurs
@@ -109,6 +111,8 @@ namespace Annuaire
             this.cbxRelation.Items.Add("Boulet");
         }
 
+        public event ChildEvent returnCreatedValue;
+
         #endregion
 
         #region Gestion Evenements
@@ -121,7 +125,8 @@ namespace Annuaire
         {
             if (this.modeFiche == FormulaireFiche.ModeFiche.CREER)
             {
-                fctn.fnCreationFiche(this.txtNom.Text, this.txtPrenom.Text, this.txtAlias.Text, this.txtTel1.Text, this.txtTel2.Text, this.txtAdresse.Text, this.cbxActivite.Text, this.cbxRelation.Text, "lienPhoto", this.txtDetails.Text);
+                string createdId = fctn.fnCreationFiche(this.txtNom.Text, this.txtPrenom.Text, this.txtAlias.Text, this.txtTel1.Text, this.txtTel2.Text, this.txtAdresse.Text, this.cbxActivite.Text, this.cbxRelation.Text, "lienPhoto", this.txtDetails.Text);
+                this.returnCreatedValue(createdId);
                 this.Close();
             }
 
