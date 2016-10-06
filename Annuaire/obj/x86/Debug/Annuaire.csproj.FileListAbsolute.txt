@@ -7,3 +7,6 @@ D:\VisualStudio\-MyProjects-\Annuaire\Annuaire\obj\x86\Debug\Annuaire.exe
 D:\VisualStudio\-MyProjects-\Annuaire\Annuaire\obj\x86\Debug\Annuaire.pdb
 D:\VisualStudio\-MyProjects-\Annuaire\Annuaire\obj\x86\Debug\Annuaire.csprojResolveAssemblyReference.cache
 D:\VisualStudio\-MyProjects-\Annuaire\Annuaire\obj\x86\Debug\Annuaire.FormulaireFiche.resources
+D:\VisualStudio\-MyProjects-\Annuaire\Annuaire\obj\x86\Debug\Annuaire.FormulaireNouvelAnnuaire.resources
+D:\VisualStudio\-MyProjects-\Annuaire\Annuaire\obj\x86\Debug\Annuaire.FormulaireChoixAnnuaire.resources
+D:\VisualStudio\-MyProjects-\Annuaire\Annuaire\obj\x86\Debug\Annuaire.FormulaireParametres.resources

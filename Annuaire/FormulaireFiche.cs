@@ -13,21 +13,21 @@ namespace Annuaire
     public partial class FormulaireFiche : Form
     {
         #region Region Global
-        public ModeFiche modeFiche;
-
-        int idToUpdate = 0;
-
-        FunctionFiches fctn = new FunctionFiches();
         GlobalFunctions gfctn = new GlobalFunctions();
-
+        ReadAccess read = new ReadAccess();
+        WriteAccess write = new WriteAccess();
+        public delegate void ChildEvent3(string createdId);
+        public event ChildEvent3 returnCreatedValue;
+        
+        
+        int idToUpdate = 0;
+        public ModeFiche modeFiche;
         public enum ModeFiche
         {
             CREER = 1,
             MODIFIER = 2,
             AFFICHER = 3
         }
-
-        public delegate void ChildEvent(string text);
         #endregion
 
         #region Constructeurs
@@ -45,11 +45,12 @@ namespace Annuaire
             idToUpdate = nodeToLoad;
 
             Fiche myfiche = new Fiche();
-            myfiche = fctn.fnSelection(nodeToLoad);
+            myfiche = read.fnSelectionFiche(nodeToLoad);
 
             this.txtNom.Text = myfiche.Nom;
             this.txtPrenom.Text = myfiche.Prenom;
             this.txtAlias.Text = myfiche.Alias;
+            this.txtAnniversaire.Text = myfiche.DateAnniversaire;
             this.txtTel1.Text = myfiche.Tel1;
             this.txtTel2.Text = myfiche.Tel2;
             this.txtAdresse.Text = myfiche.Adresse;
@@ -59,7 +60,6 @@ namespace Annuaire
 
         }
 
-
         public FormulaireFiche(int nodeToLoad, string visu)
         {
             InitializeComponent();
@@ -68,11 +68,12 @@ namespace Annuaire
             idToUpdate = nodeToLoad;
 
             Fiche myfiche = new Fiche();
-            myfiche = fctn.fnSelection(nodeToLoad);
+            myfiche = read.fnSelectionFiche(nodeToLoad);
 
             this.txtNom.Text = myfiche.Nom;
             this.txtPrenom.Text = myfiche.Prenom;
             this.txtAlias.Text = myfiche.Alias;
+            this.txtAnniversaire.Text = myfiche.DateAnniversaire;
             this.txtTel1.Text = myfiche.Tel1;
             this.txtTel2.Text = myfiche.Tel2;
             this.txtAdresse.Text = myfiche.Adresse;
@@ -91,28 +92,23 @@ namespace Annuaire
             this.txtDetails.Enabled = false;
         }
 
+        #endregion
+
+        #region Fonctions
         public void InitializeThemeComboBox()
         {
             this.cbxActivite.Items.Add("");
-            this.cbxActivite.Items.Add("Autre");
-            this.cbxActivite.Items.Add("Informatique");
-            this.cbxActivite.Items.Add("Musique");
-            this.cbxActivite.Items.Add("Moto");
-            this.cbxActivite.Items.Add("Retraite");
-            this.cbxActivite.Items.Add("Décédé");
+            foreach (string act in read.fnSelectActivites())
+            {
+                this.cbxActivite.Items.Add(act);
+            }
 
             this.cbxRelation.Items.Add("");
-            this.cbxRelation.Items.Add("Autre");
-            this.cbxRelation.Items.Add("Famille");
-            this.cbxRelation.Items.Add("Ami");
-            this.cbxRelation.Items.Add("Collegue");
-            this.cbxRelation.Items.Add("Connaissance");
-            this.cbxRelation.Items.Add("Technique");
-            this.cbxRelation.Items.Add("Boulet");
+            foreach (string rel in read.fnSelectRelations())
+            {
+                this.cbxRelation.Items.Add(rel);
+            }
         }
-
-        public event ChildEvent returnCreatedValue;
-
         #endregion
 
         #region Gestion Evenements
@@ -123,16 +119,20 @@ namespace Annuaire
 
         private void btnEnregistrer_Click(object sender, EventArgs e)
         {
+            DateTime dateValue;
+            String annif = "";
+            if (DateTime.TryParse(txtAnniversaire.Text, out dateValue)) { annif = txtAnniversaire.Text; } else { annif = "01-01-9999"; }
+            
             if (this.modeFiche == FormulaireFiche.ModeFiche.CREER)
             {
-                string createdId = fctn.fnCreationFiche(this.txtNom.Text, this.txtPrenom.Text, this.txtAlias.Text, this.txtTel1.Text, this.txtTel2.Text, this.txtAdresse.Text, this.cbxActivite.Text, this.cbxRelation.Text, "lienPhoto", this.txtDetails.Text);
+                string createdId = write.fnCreationFiche(this.txtNom.Text, this.txtPrenom.Text, this.txtAlias.Text, this.txtTel1.Text, this.txtTel2.Text, this.txtAdresse.Text, this.cbxActivite.Text, this.cbxRelation.Text, "lienPhoto", this.txtDetails.Text, annif);
                 this.returnCreatedValue(createdId);
                 this.Close();
             }
 
             if (this.modeFiche == FormulaireFiche.ModeFiche.MODIFIER)
             {
-                fctn.fnModificationFiche(idToUpdate, this.txtNom.Text, this.txtPrenom.Text, this.txtAlias.Text, this.txtTel1.Text, this.txtTel2.Text, this.txtAdresse.Text, this.cbxActivite.Text, this.cbxRelation.Text, "lienPhoto", this.txtDetails.Text);
+                write.fnModificationFiche(idToUpdate, this.txtNom.Text, this.txtPrenom.Text, this.txtAlias.Text, this.txtTel1.Text, this.txtTel2.Text, this.txtAdresse.Text, this.cbxActivite.Text, this.cbxRelation.Text, "lienPhoto", this.txtDetails.Text, annif);
                 this.Close();
             }
 
