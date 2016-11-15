@@ -168,20 +168,6 @@
       <dateAnniversaire>01-01-9999</dateAnniversaire>
     </myFiche>
     <myFiche>
-      <id>21</id>
-      <nom>PICQ</nom>
-      <prenom>François</prenom>
-      <alias>Fraça</alias>
-      <tel1></tel1>
-      <tel2></tel2>
-      <adresse></adresse>
-      <activite>Décédé</activite>
-      <relation></relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
       <id>25</id>
       <nom>TERNIER</nom>
       <prenom>Frédérique</prenom>
@@ -322,20 +308,6 @@
       <dateAnniversaire>01-01-9999</dateAnniversaire>
     </myFiche>
     <myFiche>
-      <id>44</id>
-      <nom>RIGNOL</nom>
-      <prenom>Myriam</prenom>
-      <alias></alias>
-      <tel1>06.82.27.28.65</tel1>
-      <tel2></tel2>
-      <adresse>LYON</adresse>
-      <activite>Musique</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
       <id>45</id>
       <nom>VOGLER</nom>
       <prenom>Marie-Cécile</prenom>
@@ -359,51 +331,6 @@
       <adresse></adresse>
       <activite>Musique</activite>
       <relation>Collegue</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>39</id>
-      <nom>PICQ</nom>
-      <prenom>Pascale</prenom>
-      <alias>Maman</alias>
-      <tel1>03.87.91.25.06</tel1>
-      <tel2>06.86.71.87.33</tel2>
-      <adresse>90, rue des Champs
-57730 ALTVILLER</adresse>
-      <activite>Retraite</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>38</id>
-      <nom>PICQ</nom>
-      <prenom>Joseph</prenom>
-      <alias>Papa</alias>
-      <tel1>03.87.91.25.06</tel1>
-      <tel2>06.86.71.87.33</tel2>
-      <adresse>90, rue des Champs
-57730 ALTVILLER</adresse>
-      <activite>Retraite</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>51</id>
-      <nom>FARISSIER</nom>
-      <prenom>Jacques</prenom>
-      <alias>Papi</alias>
-      <tel1>06.08.87.34.81</tel1>
-      <tel2></tel2>
-      <adresse>Rue des Tilleuls
-30 BAGNOLS SUR CEZE</adresse>
-      <activite>Décédé</activite>
-      <relation>Famille</relation>
       <lienPhoto>lienPhoto</lienPhoto>
       <details></details>
       <dateAnniversaire>01-01-9999</dateAnniversaire>
@@ -522,21 +449,6 @@
       <dateAnniversaire>01-01-9999</dateAnniversaire>
     </myFiche>
     <myFiche>
-      <id>74</id>
-      <nom>BIHL</nom>
-      <prenom>Nicolas</prenom>
-      <alias></alias>
-      <tel1>03.87.91.39.44</tel1>
-      <tel2></tel2>
-      <adresse>89 Rue des Champs
-57730 ALTVILLER</adresse>
-      <activite>Informatique</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
       <id>24</id>
       <nom>KZINK</nom>
       <prenom>Frédérique</prenom>
@@ -573,92 +485,6 @@
       <tel2></tel2>
       <adresse>89 Rue des Champs
 57730 ALTVILLER</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>72</id>
-      <nom>BIHL</nom>
-      <prenom>Marie-Louise</prenom>
-      <alias></alias>
-      <tel1>03.87.91.39.44</tel1>
-      <tel2></tel2>
-      <adresse>89 Rue des Champs
-57730 ALTVILLER</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>88</id>
-      <nom>CLAR</nom>
-      <prenom>Lena</prenom>
-      <alias></alias>
-      <tel1></tel1>
-      <tel2></tel2>
-      <adresse>30200 COLOMBIER</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>87</id>
-      <nom>CLAR</nom>
-      <prenom>Raphael</prenom>
-      <alias></alias>
-      <tel1></tel1>
-      <tel2></tel2>
-      <adresse>30200 COLOMBIER</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>86</id>
-      <nom>CLAR</nom>
-      <prenom>Stéphane</prenom>
-      <alias></alias>
-      <tel1></tel1>
-      <tel2></tel2>
-      <adresse>30200 COLOMBIER</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>85</id>
-      <nom>CLAR (REGIS)</nom>
-      <prenom>Séverine</prenom>
-      <alias>Cousine</alias>
-      <tel1></tel1>
-      <tel2></tel2>
-      <adresse>30200 COLOMBIER</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>52</id>
-      <nom>FARISSIER</nom>
-      <prenom>Janine</prenom>
-      <alias>Mamie</alias>
-      <tel1>06.08.87.34.81</tel1>
-      <tel2></tel2>
-      <adresse>Rue des Tilleuls
-30 BAGNOLS SUR CEZE</adresse>
       <activite>Autres</activite>
       <relation>Famille</relation>
       <lienPhoto>lienPhoto</lienPhoto>
@@ -706,112 +532,6 @@
       <relation>Technique</relation>
       <lienPhoto>lienPhoto</lienPhoto>
       <details>immobilier.guyot@wanadoo.fr</details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>40</id>
-      <nom>HILBERT</nom>
-      <prenom>Marie</prenom>
-      <alias></alias>
-      <tel1>06.35.34.45.58</tel1>
-      <tel2></tel2>
-      <adresse>1, Rue Villars
-57050 METZ</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>62</id>
-      <nom>JACQUIER</nom>
-      <prenom>Babeth</prenom>
-      <alias></alias>
-      <tel1>04.66.79.84.72</tel1>
-      <tel2>06.33.11.43.14</tel2>
-      <adresse>Rue Aire Vieille, 
-30200 COLOMBIER</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>27</id>
-      <nom>JACQUIER</nom>
-      <prenom>Cédric</prenom>
-      <alias></alias>
-      <tel1>06.78.75.51.45</tel1>
-      <tel2></tel2>
-      <adresse>PONT-ST-ESPRIT</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>65</id>
-      <nom>JACQUIER</nom>
-      <prenom>Céline</prenom>
-      <alias></alias>
-      <tel1>04.66.79.84.72</tel1>
-      <tel2></tel2>
-      <adresse>Rue Aire Vieille, 
-30200 COLOMBIER</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>63</id>
-      <nom>JACQUIER</nom>
-      <prenom>Christophe</prenom>
-      <alias></alias>
-      <tel1>04.66.79.84.72</tel1>
-      <tel2></tel2>
-      <adresse>Rue Aire Vieille, 
-30200 COLOMBIER</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>64</id>
-      <nom>JACQUIER</nom>
-      <prenom>Cyril</prenom>
-      <alias></alias>
-      <tel1>04.66.79.84.72</tel1>
-      <tel2></tel2>
-      <adresse>Rue Aire Vieille, 
-30200 COLOMBIER
- 
-</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>66</id>
-      <nom>JACQUIER</nom>
-      <prenom>Mathilde</prenom>
-      <alias></alias>
-      <tel1>04.66.79.84.72</tel1>
-      <tel2></tel2>
-      <adresse>Rue Aire Vieille, 
-30200 COLOMBIER</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
       <dateAnniversaire>01-01-9999</dateAnniversaire>
     </myFiche>
     <myFiche>
@@ -885,51 +605,6 @@
       <dateAnniversaire>01-01-9999</dateAnniversaire>
     </myFiche>
     <myFiche>
-      <id>93</id>
-      <nom>PAILHON</nom>
-      <prenom>Armand</prenom>
-      <alias></alias>
-      <tel1>04.66.50.99.69</tel1>
-      <tel2></tel2>
-      <adresse>Quartier le Courreau
-30130 PONT SAINT ESPRIT</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>92</id>
-      <nom>PAILHON</nom>
-      <prenom>Cléa</prenom>
-      <alias></alias>
-      <tel1>04.66.50.99.69</tel1>
-      <tel2></tel2>
-      <adresse>Quartier le Courreau
-30130 PONT SAINT ESPRIT</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>91</id>
-      <nom>PAILHON (REGIS)</nom>
-      <prenom>Lucile</prenom>
-      <alias></alias>
-      <tel1>04.66.50.99.69</tel1>
-      <tel2></tel2>
-      <adresse>Quartier le Courreau
-30130 PONT SAINT ESPRIT</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
       <id>46</id>
       <nom>PIERROT ??</nom>
       <prenom>Bernard</prenom>
@@ -967,92 +642,6 @@
       <adresse></adresse>
       <activite>Autres</activite>
       <relation>Technique</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>90</id>
-      <nom>REGIS</nom>
-      <prenom>Andrea</prenom>
-      <alias></alias>
-      <tel1></tel1>
-      <tel2></tel2>
-      <adresse>MEJANE LE CLAP</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>84</id>
-      <nom>REGIS</nom>
-      <prenom>Christine</prenom>
-      <alias>Tatie</alias>
-      <tel1>04.66.79.90.62</tel1>
-      <tel2></tel2>
-      <adresse>Rue du Colombier
-30200 COLOMBIER</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>83</id>
-      <nom>REGIS</nom>
-      <prenom>Didier</prenom>
-      <alias></alias>
-      <tel1>04.66.79.90.62</tel1>
-      <tel2></tel2>
-      <adresse>Rue du Colombier
-30200 COLOMBIER</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>89</id>
-      <nom>REGIS</nom>
-      <prenom>Sébastien</prenom>
-      <alias></alias>
-      <tel1></tel1>
-      <tel2></tel2>
-      <adresse>MEJANE LE CLAP</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>80</id>
-      <nom>RIGNOL</nom>
-      <prenom>Emmanuel</prenom>
-      <alias></alias>
-      <tel1></tel1>
-      <tel2></tel2>
-      <adresse>LYON</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
-      <id>81</id>
-      <nom>RIGNOL</nom>
-      <prenom>Gabriel</prenom>
-      <alias></alias>
-      <tel1></tel1>
-      <tel2></tel2>
-      <adresse>PERPIGNAN</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
       <lienPhoto>lienPhoto</lienPhoto>
       <details></details>
       <dateAnniversaire>01-01-9999</dateAnniversaire>
@@ -1232,21 +821,6 @@
       <dateAnniversaire>20-05-1990</dateAnniversaire>
     </myFiche>
     <myFiche>
-      <id>70</id>
-      <nom>BIHL</nom>
-      <prenom>Thomas</prenom>
-      <alias></alias>
-      <tel1>03.87.91.39.44</tel1>
-      <tel2>06.61.03.46.44</tel2>
-      <adresse>89 Rue des Champs
-57730 ALTVILLER</adresse>
-      <activite>Informatique</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
       <id>5</id>
       <nom>PIERROT</nom>
       <prenom>Cédric</prenom>
@@ -1322,20 +896,6 @@
       <dateAnniversaire>19-11-1977</dateAnniversaire>
     </myFiche>
     <myFiche>
-      <id>94</id>
-      <nom>BEAU</nom>
-      <prenom>Clémence</prenom>
-      <alias></alias>
-      <tel1></tel1>
-      <tel2></tel2>
-      <adresse>PONT-ST-ESPRIT</adresse>
-      <activite>Autres</activite>
-      <relation>Famille</relation>
-      <lienPhoto>lienPhoto</lienPhoto>
-      <details></details>
-      <dateAnniversaire>01-01-9999</dateAnniversaire>
-    </myFiche>
-    <myFiche>
       <id>6</id>
       <nom>COPIE</nom>
       <prenom>Christelle</prenom>
@@ -1377,6 +937,474 @@
       <lienPhoto>lienPhoto</lienPhoto>
       <details></details>
       <dateAnniversaire>29-05-1971</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>38</id>
+      <nom>PICQ</nom>
+      <prenom>Joseph</prenom>
+      <alias>Papa</alias>
+      <tel1>03.87.91.25.06</tel1>
+      <tel2>06.86.71.87.33</tel2>
+      <adresse>90, rue des Champs
+57730 ALTVILLER</adresse>
+      <activite>Retraite</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>23-03-1956</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>39</id>
+      <nom>PICQ</nom>
+      <prenom>Pascale</prenom>
+      <alias>Maman</alias>
+      <tel1>03.87.91.25.06</tel1>
+      <tel2>06.86.71.87.33</tel2>
+      <adresse>90, rue des Champs
+57730 ALTVILLER</adresse>
+      <activite>Retraite</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>29-03-1962</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>94</id>
+      <nom>BEAU</nom>
+      <prenom>Clémence</prenom>
+      <alias></alias>
+      <tel1></tel1>
+      <tel2></tel2>
+      <adresse>PONT-ST-ESPRIT</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>23-01-1990</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>72</id>
+      <nom>BIHL</nom>
+      <prenom>Marie-Louise</prenom>
+      <alias></alias>
+      <tel1>03.87.91.39.44</tel1>
+      <tel2></tel2>
+      <adresse>89 Rue des Champs
+57730 ALTVILLER</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>22-10-1954</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>74</id>
+      <nom>BIHL</nom>
+      <prenom>Nicolas</prenom>
+      <alias></alias>
+      <tel1>03.87.91.39.44</tel1>
+      <tel2></tel2>
+      <adresse>89 Rue des Champs
+57730 ALTVILLER</adresse>
+      <activite>Informatique</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>25-06-1989</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>70</id>
+      <nom>BIHL</nom>
+      <prenom>Thomas</prenom>
+      <alias></alias>
+      <tel1>03.87.91.39.44</tel1>
+      <tel2>06.61.03.46.44</tel2>
+      <adresse>89 Rue des Champs
+57730 ALTVILLER</adresse>
+      <activite>Informatique</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>28-07-1986</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>88</id>
+      <nom>CLAR</nom>
+      <prenom>Lena</prenom>
+      <alias></alias>
+      <tel1></tel1>
+      <tel2></tel2>
+      <adresse>30200 COLOMBIER</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>11-11-2007</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>87</id>
+      <nom>CLAR</nom>
+      <prenom>Raphael</prenom>
+      <alias></alias>
+      <tel1></tel1>
+      <tel2></tel2>
+      <adresse>30200 COLOMBIER</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>28-10-2009</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>86</id>
+      <nom>CLAR</nom>
+      <prenom>Stéphane</prenom>
+      <alias></alias>
+      <tel1></tel1>
+      <tel2></tel2>
+      <adresse>30200 COLOMBIER</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>23-10-1978</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>85</id>
+      <nom>CLAR (REGIS)</nom>
+      <prenom>Séverine</prenom>
+      <alias>Cousine</alias>
+      <tel1></tel1>
+      <tel2></tel2>
+      <adresse>30200 COLOMBIER</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>04-05-1978</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>51</id>
+      <nom>FARISSIER</nom>
+      <prenom>Jacques</prenom>
+      <alias>Papi</alias>
+      <tel1>06.08.87.34.81</tel1>
+      <tel2></tel2>
+      <adresse>Rue des Tilleuls
+30 BAGNOLS SUR CEZE</adresse>
+      <activite></activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>22-05-1931</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>52</id>
+      <nom>FARISSIER</nom>
+      <prenom>Janine</prenom>
+      <alias>Mamie</alias>
+      <tel1>06.08.87.34.81</tel1>
+      <tel2></tel2>
+      <adresse>Rue des Tilleuls
+30 BAGNOLS SUR CEZE</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>12-03-1933</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>40</id>
+      <nom>HILBERT</nom>
+      <prenom>Marie</prenom>
+      <alias></alias>
+      <tel1>06.35.34.45.58</tel1>
+      <tel2></tel2>
+      <adresse>1, Rue Villars
+57050 METZ</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>29-03-1993</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>62</id>
+      <nom>JACQUIER</nom>
+      <prenom>Babeth</prenom>
+      <alias></alias>
+      <tel1>04.66.79.84.72</tel1>
+      <tel2>06.33.11.43.14</tel2>
+      <adresse>Rue Aire Vieille, 
+30200 COLOMBIER</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>27-09-1966</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>27</id>
+      <nom>JACQUIER</nom>
+      <prenom>Cédric</prenom>
+      <alias></alias>
+      <tel1>06.78.75.51.45</tel1>
+      <tel2></tel2>
+      <adresse>PONT-ST-ESPRIT</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>28-03-1990</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>65</id>
+      <nom>JACQUIER</nom>
+      <prenom>Céline</prenom>
+      <alias></alias>
+      <tel1>04.66.79.84.72</tel1>
+      <tel2></tel2>
+      <adresse>Rue Aire Vieille, 
+30200 COLOMBIER</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>01-04-1996</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>66</id>
+      <nom>JACQUIER</nom>
+      <prenom>Mathilde</prenom>
+      <alias></alias>
+      <tel1>04.66.79.84.72</tel1>
+      <tel2></tel2>
+      <adresse>Rue Aire Vieille, 
+30200 COLOMBIER</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>01-04-1996</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>63</id>
+      <nom>JACQUIER</nom>
+      <prenom>Christophe</prenom>
+      <alias></alias>
+      <tel1>04.66.79.84.72</tel1>
+      <tel2></tel2>
+      <adresse>Rue Aire Vieille, 
+30200 COLOMBIER</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>17-06-1966</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>64</id>
+      <nom>JACQUIER</nom>
+      <prenom>Cyril</prenom>
+      <alias></alias>
+      <tel1>04.66.79.84.72</tel1>
+      <tel2></tel2>
+      <adresse>Rue Aire Vieille, 
+30200 COLOMBIER
+ 
+</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>18-06-1994</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>93</id>
+      <nom>PAILHON</nom>
+      <prenom>Armand</prenom>
+      <alias></alias>
+      <tel1>04.66.50.99.69</tel1>
+      <tel2></tel2>
+      <adresse>Quartier le Courreau
+30130 PONT SAINT ESPRIT</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>01-07-1988</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>91</id>
+      <nom>PAILHON (REGIS)</nom>
+      <prenom>Lucile</prenom>
+      <alias></alias>
+      <tel1>04.66.50.99.69</tel1>
+      <tel2></tel2>
+      <adresse>Quartier le Courreau
+30130 PONT SAINT ESPRIT</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>30-06-1988</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>92</id>
+      <nom>PAILHON</nom>
+      <prenom>Cléa</prenom>
+      <alias></alias>
+      <tel1>04.66.50.99.69</tel1>
+      <tel2></tel2>
+      <adresse>Quartier le Courreau
+30130 PONT SAINT ESPRIT</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>23-05-2014</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>21</id>
+      <nom>PICQ</nom>
+      <prenom>François</prenom>
+      <alias>Fraça</alias>
+      <tel1></tel1>
+      <tel2></tel2>
+      <adresse></adresse>
+      <activite></activite>
+      <relation></relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>04-02-1965</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>90</id>
+      <nom>REGIS</nom>
+      <prenom>Andrea</prenom>
+      <alias></alias>
+      <tel1></tel1>
+      <tel2></tel2>
+      <adresse>MEJANE LE CLAP</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>03-10-1984</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>84</id>
+      <nom>REGIS</nom>
+      <prenom>Christine</prenom>
+      <alias>Tatie</alias>
+      <tel1>04.66.79.90.62</tel1>
+      <tel2></tel2>
+      <adresse>Rue du Colombier
+30200 COLOMBIER</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>05-06-1959</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>83</id>
+      <nom>REGIS</nom>
+      <prenom>Didier</prenom>
+      <alias></alias>
+      <tel1>04.66.79.90.62</tel1>
+      <tel2></tel2>
+      <adresse>Rue du Colombier
+30200 COLOMBIER</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>02-02-1959</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>89</id>
+      <nom>REGIS</nom>
+      <prenom>Sébastien</prenom>
+      <alias></alias>
+      <tel1></tel1>
+      <tel2></tel2>
+      <adresse>MEJANE LE CLAP</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>28-03-1981</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>44</id>
+      <nom>RIGNOL</nom>
+      <prenom>Myriam</prenom>
+      <alias></alias>
+      <tel1>06.82.27.28.65</tel1>
+      <tel2></tel2>
+      <adresse>LYON</adresse>
+      <activite>Musique</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>12-07-1988</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>81</id>
+      <nom>RIGNOL</nom>
+      <prenom>Gabriel</prenom>
+      <alias></alias>
+      <tel1></tel1>
+      <tel2></tel2>
+      <adresse>PERPIGNAN</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>01-09-2001</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>80</id>
+      <nom>RIGNOL</nom>
+      <prenom>Emmanuel</prenom>
+      <alias></alias>
+      <tel1></tel1>
+      <tel2></tel2>
+      <adresse>LYON</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>10-12-1994</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>35</id>
+      <nom>REGIS</nom>
+      <prenom>Amélia</prenom>
+      <alias></alias>
+      <tel1></tel1>
+      <tel2></tel2>
+      <adresse>MEJANE LE CLAP</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>13-08-2015</dateAnniversaire>
+    </myFiche>
+    <myFiche>
+      <id>26</id>
+      <nom>REGIS</nom>
+      <prenom>Clarisse</prenom>
+      <alias></alias>
+      <tel1></tel1>
+      <tel2></tel2>
+      <adresse>MEJANE LE CLAP</adresse>
+      <activite>Autres</activite>
+      <relation>Famille</relation>
+      <lienPhoto>lienPhoto</lienPhoto>
+      <details></details>
+      <dateAnniversaire>27-01-2013</dateAnniversaire>
     </myFiche>
   </annuaire>
 </root>

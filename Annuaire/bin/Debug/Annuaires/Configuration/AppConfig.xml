@@ -4,6 +4,6 @@
     <couleurSelectionnee>Standard</couleurSelectionnee>
   </couleurApp>
   <fichiers>
-    <annuaire>Musique.xml</annuaire>
+    <annuaire>myXmlDb.xml</annuaire>
   </fichiers>
 </root>
